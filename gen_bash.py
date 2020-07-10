@@ -17,7 +17,7 @@ for div in soup.find_all(attrs={"class": "item"}):
 <head>
     <meta charset="UTF-8" />
     <title>{}</title>
-    <meta http-equiv=”refresh” content=”0; url=https://cut-and-go.org/{}/{}.pdf” />
+    <meta http-equiv="refresh" content="0; url=https://cut-and-go.org/{}/{}.pdf" />
     </style>
 </head>
 </html>'''.format(title, href, filename)
