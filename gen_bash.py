@@ -16,8 +16,8 @@ for div in soup.find_all(attrs={"class": "item"}):
 <html lang="zh-tw">
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="img/icon.png" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="https://cut-and-go.org/img/icon.png" />
+    <link rel="apple-touch-icon" href="https://cut-and-go.org/img/apple-touch-icon.png" />
     <title>{}</title>
     <meta name="description" content="{}" />
     <meta property="og:site_name" content="Cut-and-Go" />
